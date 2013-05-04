@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>My Page</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<script src="./js/jquery-1.8.2.min.js"></script>
+	<link rel="stylesheet" href="./js/jquery.mobile-1.2.0.min.css" />
+	<script src="./js/jquery.mobile-1.2.0.js"></script> 
+
+
+	<script language="javascript" type="text/javascript" src="./js/jquery.jqplot.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./js/jquery.jqplot.css" />
+	<script type="text/javascript" src="./js/plugins/jqplot.canvasTextRenderer.min.js"></script>
+	<script type="text/javascript" src="./js/plugins/jqplot.canvasAxisLabelRenderer.min.js"></script>
+	<script type="text/javascript">
+		//$.mobile.listview.prototype.options.theme = 'e';
+		$.mobile.listview.prototype.options.inset = true;
+		//$.mobile.listview.prototype.options.dividerTheme = 'e';
+		$.mobile.listview.prototype.options.filter = true;
+		//$.mobile.listview.prototype.options.filterTheme = 'e';
+		$.mobile.listview.prototype.options.filterPlaceholder = 'Search for ...';
+		//$.mobile.listview.prototype.options.filterCallback = customFilter;
+		$(document).ready(function() {
+			$('#myform').change(function() {
+				alerT('wtf');
+			});
+		});
+	</script>
+
+
+
+<div data-role="page">
+
+	<div data-role="header">
+		<h1>My Title</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<form action='#' method='post' id='myform'>
+		<input type='search' id='searchitem' name='searchitem' autofocus
+		placeholder='Enter search text' value='' />
+			<input type='text' id='textitem' name='textitem'
+			placeholder='Enter text item' value='' />
+		<textarea id='textarea' name='textarea'
+		placeholder='Enter description'></textarea>
+			<a href='#' data-role='button' class='ui-disabled'>More
+			Details</a>
+		</form>
+
+		<ul id='oslist' data-role='listview'>
+		<li data-role='list-divider'>Open Source</li>
+		<li data-filtertext='Google'>Android</li>
+		<li data-filtertext='HP'>WebOS</li>
+		<li data-filtertext='Samsung Intel'>Tizen</li>
+		<li data-filtertext='Linux Foundation'>LiMo</li>
+		<li data-filtertext='Mozilla'>Boot2Gecko</li>
+		<li data-role='list-divider'>Closed</li>
+		<li data-filtertext='Apple'>iOS</li>
+		<li data-filtertext='Nokia'>Symbian</li>
+		<li data-filtertext='Nokia'>S40</li>
+		<li data-filtertext='RIM'>Blackberry OS</li>
+		<li data-filtertext='Microsoft'>Windows Phone</li>
+		<li data-filtertext='Samsung'>Bada</li>
+		</ul>
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+
+
+-->
+</head> 
+
+
+<body> 
+
+
+</body>
+</html>

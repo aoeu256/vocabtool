@@ -1,0 +1,768 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<!-- saved from url=(0115)https://www.x.com/devzone/articles/using-paypals-adaptive-payments-and-google-app-engine-build-online-market-python -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="js win chrome chrome25 webkit webkit5"><head profile="http://www.w3.org/1999/xhtml/vocab"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+<meta about="/devzone/articles/using-paypals-adaptive-payments-and-google-app-engine-build-online-market-python" property="sioc:num_replies" content="0" datatype="xsd:integer">
+<link rel="shortcut icon" href="https://www.x.com/sites/all/themes/x/favicon.ico" type="image/vnd.microsoft.icon">
+<meta content="Using PayPal&amp;#039;s Adaptive Payments and Google App Engine to Build an Online Market with Python" about="/devzone/articles/using-paypals-adaptive-payments-and-google-app-engine-build-online-market-python" property="dc:title">
+<link rel="shortlink" href="https://www.x.com/node/5066">
+<meta name="Generator" content="Drupal 7 (http://drupal.org)">
+<link rel="canonical" href="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce.htm">
+  <title>Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python | X.commerce</title>
+  <style type="text/css" media="all">@import url("https://www.x.com/modules/system/system.base.css?mi4wvr");
+@import url("https://www.x.com/modules/system/system.menus.css?mi4wvr");
+@import url("https://www.x.com/modules/system/system.messages.css?mi4wvr");
+@import url("https://www.x.com/modules/system/system.theme.css?mi4wvr");</style>
+<style type="text/css" media="all">@import url("https://www.x.com/sites/all/modules/custom/analytic_reports/css/analytic-reports.css?mi4wvr");
+@import url("https://www.x.com/modules/comment/comment.css?mi4wvr");
+@import url("https://www.x.com/modules/field/theme/field.css?mi4wvr");
+@import url("https://www.x.com/modules/node/node.css?mi4wvr");
+@import url("https://www.x.com/modules/poll/poll.css?mi4wvr");
+@import url("https://www.x.com/modules/search/search.css?mi4wvr");
+@import url("https://www.x.com/modules/user/user.css?mi4wvr");
+@import url("https://www.x.com/sites/all/modules/contrib/views/css/views.css?mi4wvr");</style>
+<style type="text/css" media="all">@import url("https://www.x.com/sites/all/modules/contrib/ctools/css/ctools.css?mi4wvr");
+@import url("https://www.x.com/sites/all/modules/contrib/geshifilter/geshifilter.css?mi4wvr");
+@import url("https://www.x.com/sites/all/modules/contrib/jreject/jReject/css/jquery.reject.css?mi4wvr");
+@import url("https://www.x.com/sites/all/modules/contrib/ctools/css/modal.css?mi4wvr");
+@import url("https://www.x.com/sites/all/modules/contrib/field_group/field_group.css?mi4wvr");
+@import url("https://www.x.com/sites/all/modules/contrib/date/date_api/date.css?mi4wvr");</style>
+<style type="text/css" media="all">@import url("https://www.x.com/sites/all/themes/x/css/body.css?mi4wvr");
+@import url("https://www.x.com/sites/all/themes/x/css/reset.css?mi4wvr");
+@import url("https://www.x.com/sites/all/themes/x/css/style.css?mi4wvr");
+@import url("https://www.x.com/sites/all/themes/x/css/wiki.css?mi4wvr");
+@import url("https://www.x.com/sites/all/themes/x/css/v2/chrome.css?mi4wvr");</style>
+<style type="text/css" media="all">@import url("https://www.x.com/sites/all/themes/x/css/docs.css?mi4wvr");</style>
+  <script type="text/javascript" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/jquery.js"></script>
+<script type="text/javascript" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/jquery.once.js"></script>
+<script type="text/javascript" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/drupal.js"></script>
+<script type="text/javascript" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/form.js"></script>
+<script type="text/javascript" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/analytic_reports.js"></script>
+<script type="text/javascript" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/jquery.reject.js"></script>
+<script type="text/javascript" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/jquery.form.js"></script>
+<script type="text/javascript" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/progress.js"></script>
+<script type="text/javascript" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/ajax.js"></script>
+<script type="text/javascript" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/modal.js"></script>
+<script type="text/javascript" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/gist.js"></script>
+<script type="text/javascript" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/field_group.js"></script>
+<script type="text/javascript" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/common.js"></script>
+<script type="text/javascript" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/jscarousellite_1.0.1.min.js"></script>
+<script type="text/javascript" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/jquery.ui.dialog.patch.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"x","theme_token":"6ZmC8ArJ-9US7wS5noz7fYT5XCIPy8gixwp3aagyT58","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/custom\/analytic_reports\/js\/analytic_reports.js":1,"sites\/all\/modules\/contrib\/jreject\/jReject\/js\/jquery.reject.js":1,"misc\/jquery.form.js":1,"misc\/progress.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/ctools\/js\/modal.js":1,"sites\/all\/themes\/x\/js\/common.js":1,"sites\/all\/themes\/x\/js\/jscarousellite_1.0.1.min.js":1,"sites\/all\/modules\/contrib\/views\/js\/jquery.ui.dialog.patch.js":1,"0":1,"misc\/form.js":1,"sites\/all\/themes\/x\/js\/gist.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/custom\/analytic_reports\/css\/analytic-reports.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/geshifilter\/geshifilter.css":1,"sites\/all\/modules\/contrib\/jreject\/jReject\/css\/jquery.reject.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/modal.css":1,"sites\/all\/modules\/contrib\/field_group\/field_group.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/themes\/x\/css\/body.css":1,"sites\/all\/themes\/x\/css\/reset.css":1,"sites\/all\/themes\/x\/css\/style.css":1,"sites\/all\/themes\/x\/css\/wiki.css":1,"sites\/all\/themes\/x\/css\/v2\/chrome.css":1,"sites\/all\/themes\/x\/css\/docs.css":1}},"heartbeat_language":"en","CToolsModal":{"loadingText":"Loading...","closeText":"Close Window","closeImage":"\u003cimg typeof=\"foaf:Image\" src=\"https:\/\/www.x.com\/sites\/all\/modules\/contrib\/ctools\/images\/icon-close-window.png\" alt=\"Close window\" title=\"Close window\" \/\u003e","throbber":"\u003cimg typeof=\"foaf:Image\" src=\"https:\/\/www.x.com\/sites\/all\/modules\/contrib\/ctools\/images\/throbber.gif\" alt=\"Loading\" title=\"Loading...\" \/\u003e"},"node-modal-box":{"modalSize":{"type":"fixed","width":436,"height":331},"animation":"fadeIn","animationSpeed":"medium","closeText":"","closeImage":"\u003cimg typeof=\"foaf:Image\" src=\"\/sites\/all\/themes\/x\/images\/close_modal.png\" alt=\"Close window\" title=\"Close window\" \/\u003e"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-5066 node-type-document i18n-en">
+  <div id="skip-link">
+    <a href="https://www.x.com/devzone/articles/using-paypals-adaptive-payments-and-google-app-engine-build-online-market-python#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    
+<!--Red banner bar-->
+<div id="top">
+  <div class="top-wrapper">
+      <div class="region region-top">
+    <div id="block-users-user-header" class="block block-users">
+
+  
+  <div class="content">
+    <div class="user_bar user_bar_login"><a href="https://www.x.com/modals/nojs/login" id="node-add-modal" class="ctools-use-modal ctools-modal-node-modal-box ctools-use-modal-processed">Log In</a></div><div class="user_bar user_bar_signup"><a href="https://www.x.com/modals/nojs/register" id="node-add-modal" class="ctools-use-modal ctools-modal-node-modal-box ctools-use-modal-processed">Register</a></div>  </div>
+</div>
+<div class="clearfix">&nbsp;</div>  </div>
+  </div>
+</div>
+
+<div id="wrapper">
+
+  <div id="inner-wrapper">
+          <table id="logo-box"><tbody><tr><td id="logo"><a href="https://www.x.com/"><img src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/x-logo-xCommerce.png"></a></td></tr></tbody></table>
+    
+    <div id="inner">
+      
+      <div id="inner-header">
+        <div id="header">
+            <div class="region region-header">
+    <div id="block-site-config-print-and-email" class="block block-site-config">
+
+  
+  <div class="content">
+    <div class="email-icon"><a href="mailto:?subject=X.commerce:%20Using%20PayPal&%23039;s%20Adaptive%20Payments%20and%20Google%20App%20Engine%20to%20Build%20an%20Online%20Market%20with%20Python&body=http://www.x.com/devzone/articles/using-paypals-adaptive-payments-and-google-app-engine-build-online-market-python"></a></div><div class="print-icon"><a href="https://www.x.com/"></a></div>  </div>
+</div>
+<div id="block-search-custom-search-site" class="block block-search-custom">
+
+  
+  <div class="content">
+    <form action="https://www.x.com/" method="post" id="search-custom-searchsite" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-keywords">
+  <input class="site-search-box form-text" type="text" id="edit-keywords" name="keywords" value="Search" size="60" maxlength="128">
+</div>
+<input type="submit" id="edit-search-submit" name="op" value="" class="form-submit"><fieldset class="site-search-options form-wrapper" id="edit-details"><legend><span class="fieldset-legend">Search Details</span></legend><div class="fieldset-wrapper"><div class="form-item form-type-checkboxes form-item-details-search-within">
+  <label for="edit-details-search-within">Search within </label>
+ <div id="edit-details-search-within" class="form-checkboxes"><div class="form-item form-type-checkbox form-item-details-search-within-use-cases">
+ <input type="checkbox" id="edit-details-search-within-use-cases" name="details[search_within][use_cases]" value="use_cases" checked="checked" class="form-checkbox">  <label class="option" for="edit-details-search-within-use-cases">Use Cases </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-details-search-within-products">
+ <input type="checkbox" id="edit-details-search-within-products" name="details[search_within][products]" value="products" checked="checked" class="form-checkbox">  <label class="option" for="edit-details-search-within-products">Products </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-details-search-within-docs">
+ <input type="checkbox" id="edit-details-search-within-docs" name="details[search_within][docs]" value="docs" checked="checked" class="form-checkbox">  <label class="option" for="edit-details-search-within-docs">Documentation &amp; Tools </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-details-search-within-forums">
+ <input type="checkbox" id="edit-details-search-within-forums" name="details[search_within][forums]" value="forums" checked="checked" class="form-checkbox">  <label class="option" for="edit-details-search-within-forums">Forums </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-details-search-within-blogs">
+ <input type="checkbox" id="edit-details-search-within-blogs" name="details[search_within][blogs]" value="blogs" checked="checked" class="form-checkbox">  <label class="option" for="edit-details-search-within-blogs">Blogs </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-details-search-within-programs">
+ <input type="checkbox" id="edit-details-search-within-programs" name="details[search_within][programs]" value="programs" checked="checked" class="form-checkbox">  <label class="option" for="edit-details-search-within-programs">Programs &amp; Events </label>
+
+</div>
+</div>
+</div>
+</div></fieldset>
+<input type="hidden" name="form_build_id" value="form-JR29JfJdIJEidODTmc6wBeT6sto-hreZJyaQNXMqnHA">
+<input type="hidden" name="form_id" value="search_custom_searchsite">
+</div></form>  </div>
+</div>
+<div id="block-menu-block-1" class="block block-menu-block">
+
+  
+  <div class="h2-header"></div>
+  <div class="h2-box">
+  <h2><a href="https://www.x.com/" title="" class="active-trail">Home</a></h2>
+  </div>
+  <div class="h2-footer"></div>
+  
+  
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="first expanded menu-mlid-718"><a href="https://www.x.com/corporate">X.commerce</a><ul class="menu"><li class="first leaf has-children menu-mlid-1776"><a href="https://www.x.com/corporate" title="">About X.commerce</a></li>
+<li class="last leaf menu-mlid-1240"><a href="https://www.x.com/corporate/where-find-us">Where to Find Us</a></li>
+</ul></li>
+<li class="leaf menu-mlid-727"><a href="https://www.x.com/products">Products</a></li>
+<li class="expanded active-trail menu-mlid-15142"><a href="https://www.x.com/developers" class="active-trail">Developers</a><ul class="menu"><li class="first leaf menu-mlid-4136"><a href="https://www.x.com/developers/ebay" title="">eBay Developers</a></li>
+<li class="leaf menu-mlid-4135"><a href="https://www.x.com/developers/paypal" title="">PayPal Developers</a></li>
+<li class="leaf menu-mlid-700"><a href="https://www.x.com/developers/magento">Magento Developers</a></li>
+<li class="leaf has-children active-trail menu-mlid-4309"><a href="https://www.x.com/developers/paypal/devzone" class="active-trail">DevZone</a></li>
+<li class="last leaf menu-mlid-14865"><a href="https://www.x.com/developers/sandbox-testing-environments">Sandbox Testing Environments</a></li>
+</ul></li>
+<li class="expanded menu-mlid-725"><a href="https://www.x.com/community">Community</a><ul class="menu"><li class="first leaf has-children menu-mlid-7935"><a href="https://www.x.com/community/events" title="">Events</a></li>
+<li class="leaf menu-mlid-1961"><a href="https://www.x.com/developers/community/blogs">Developer Blogs</a></li>
+<li class="leaf menu-mlid-4028"><a href="https://www.x.com/developers/paypal/forums" title="">PayPal Forums</a></li>
+<li class="leaf menu-mlid-4033"><a href="https://www.x.com/developers/x.commerce/forums" title="">X.commerce Forums</a></li>
+<li class="last leaf menu-mlid-4027"><a href="https://www.x.com/developers/ebay/forums" title="">eBay Forums</a></li>
+</ul></li>
+<li class="expanded menu-mlid-4021"><a href="https://www.x.com/merchants">Merchants</a><ul class="menu"><li class="first last leaf menu-mlid-4351"><a href="https://www.x.com/merchants" title="">Merchant Benefits</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-3733"><a href="https://www.x.com/partners">Partners</a><ul class="menu"><li class="first leaf menu-mlid-4349"><a href="https://www.x.com/partners" title="">Partner Program</a></li>
+<li class="leaf has-children menu-mlid-4310"><a href="https://www.x.com/partners/signup">Sign Up to be a Partner</a></li>
+<li class="last leaf menu-mlid-29657"><a href="https://www.x.com/partners/partner-directory">Partner Directory</a></li>
+</ul></li>
+</ul></div>
+  </div>
+</div>
+  </div>
+        </div>
+                <div class="clearfix"></div>
+      </div>
+      
+      <div id="inner-body">
+        <div id="inner-inner-body">
+        
+                  <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="https://www.x.com/">X.commerce</a> <span class="breadcrumb-seperator">&gt;</span> <a href="https://www.x.com/developers">Developers</a> <span class="breadcrumb-seperator">&gt;</span> <a href="https://www.x.com/developers/paypal/devzone">DevZone</a> <span class="breadcrumb-seperator">&gt;</span> Using PayPal's Adaptive Payments...</div></div>
+        
+        
+                  <div id="sidebar-left">  <div class="region region-sidebar-left">
+    <div id="block-views-devzone-article-list-2-block" class="block block-views">
+
+  
+  <div class="h2-header"></div>
+  <div class="h2-box">
+  <h2>All DevZone Articles</h2>
+  </div>
+  <div class="h2-footer"></div>
+  
+  
+  <div class="content">
+    <div class="view view-devzone-article-list-2 view-id-devzone_article_list_2 view-display-id-block view-dom-id-1">
+      
+  
+      <div class="view-header">
+      <div class="css-devzone"><a class="rss" href="https://www.x.com/developers/paypal/devzone/feeds"><img src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/icon-rss.png"></a>
+</div>
+    </div>
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/rise-telco-ultimate-app-digital-storefront-really">The Rise of the Telco as the Ultimate App Digital Storefront—Really</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/future-money-web-payments-and-payswarm">The Future of Money: Web Payments and PaySwarm</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/future-commerce-will-combine-your-social-network-and-mobile-device">The Future of Commerce Will Combine Your Social Network and Mobile Device  </a></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/mobile-payment-battlefield-littered-players-so-who-will-win">The Mobile Payment Battlefield Is Littered with Players; So Who Will Win?  </a></span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/decentralized-innovation-financial-data">Decentralized Innovation for Financial Data  </a></span>  </div></li>
+          <li class="views-row views-row-6 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/toward-linked-financial-data">Toward Linked Financial Data</a></span>  </div></li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/why-current-entrepreneurial-climate-hot">Why the Current Entrepreneurial Climate Is Hot</a></span>  </div></li>
+          <li class="views-row views-row-8 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/how-launch-startup-todays-hot-entrepreneurial-climate">How to Launch a Startup in Today's Hot Entrepreneurial Climate</a></span>  </div></li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/mobile-tech-accelerating-our-society-more-anyone-could-have-ever-imagined">Mobile Tech Is Accelerating Our Society More Than Anyone Could Have Ever Imagined  </a></span>  </div></li>
+          <li class="views-row views-row-10 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/reimagining-your-world-mobile-and-social-core">Reimagining Your World with Mobile and Social at the Core  </a></span>  </div></li>
+          <li class="views-row views-row-11 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/how-build-mobile-payments-system-paypal-and-qr-codes">How to Build a Mobile Payments System with PayPal and QR Codes  </a></span>  </div></li>
+          <li class="views-row views-row-12 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/what-we-are-missing">What We Are Missing</a></span>  </div></li>
+          <li class="views-row views-row-13 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/we-are-truly-living-unprecedented-times">We Are Truly Living in Unprecedented Times</a></span>  </div></li>
+          <li class="views-row views-row-14 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/five-reasons-html5-will-succeed">Five Reasons HTML5 Will Succeed</a></span>  </div></li>
+          <li class="views-row views-row-15 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/deep-dive-mary-meeker-s-latest-talk-yields-eye-popping-mobile-trend">A Deep Dive into Mary Meeker’s Latest Talk Yields Eye-Popping Mobile Trend  </a></span>  </div></li>
+          <li class="views-row views-row-16 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/open-doors-ahead-html5">Open Doors Ahead with HTML5</a></span>  </div></li>
+          <li class="views-row views-row-17 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/using-paypal-ipn-deliver-ebook-and-update-ebay-shipping-status-part-2">Using PayPal IPN to Deliver an eBook and Update eBay Shipping Status, Part 2</a></span>  </div></li>
+          <li class="views-row views-row-18 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/paypal-effect-industry-leading-wireless-company">The PayPal Effect on an Industry-Leading Wireless Company  </a></span>  </div></li>
+          <li class="views-row views-row-19 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/excerpts/microdate-and-custom-data">Chapter&nbsp;6.&nbsp;Microdata and Custom Data</a></span>  </div></li>
+          <li class="views-row views-row-20 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/privacy-keep-it-secret">Privacy: Keep It Like a Secret</a></span>  </div></li>
+          <li class="views-row views-row-21 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/using-paypal-ipn-deliver-ebook-and-update-ebay-shipping-status-part-1">Using PayPal IPN to Deliver an eBook and Update eBay Shipping Status, Part 1  </a></span>  </div></li>
+          <li class="views-row views-row-22 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/uncharted-waters-mobile-payments">The Uncharted Waters of Mobile Payments</a></span>  </div></li>
+          <li class="views-row views-row-23 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/build-eticketing-system-paypal-python-and-google-app-engine-part-3">Build an eTicketing System with PayPal, Python, and Google App Engine, Part 3  </a></span>  </div></li>
+          <li class="views-row views-row-24 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/how-seconds-democratizing-mobile-payments-global-citizens">How Seconds Is Democratizing Mobile Payments for Global Citizens</a></span>  </div></li>
+          <li class="views-row views-row-25 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/stumbleupon-version-idea-ups-and-startups-making-difference">The StumbleUpon Version: Idea-Ups and Startups Making a Difference</a></span>  </div></li>
+          <li class="views-row views-row-26 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/excerpts/packing-information-into-names">Chapter 2. Packing Information into Names</a></span>  </div></li>
+          <li class="views-row views-row-27 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/how-use-paypal-invoicing-apis-php">How to Use PayPal Invoicing APIs with PHP</a></span>  </div></li>
+          <li class="views-row views-row-28 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/build-eticketing-system-paypal-python-and-google-app-engine-part-2">Build an eTicketing System with PayPal, Python, and Google App Engine, Part 2</a></span>  </div></li>
+          <li class="views-row views-row-29 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/main-problems-mobile-payments-and-why-i-started-seconds">The Main Problems with Mobile Payments, and Why I Started Seconds</a></span>  </div></li>
+          <li class="views-row views-row-30 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/future-money-web">The Future of Money Is the Web  </a></span>  </div></li>
+          <li class="views-row views-row-31 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/five-hidden-gems-power-app-economy">Five Hidden Gems That Power the App Economy</a></span>  </div></li>
+          <li class="views-row views-row-32 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/open-web-payment-standards-and-new-economy">Open Web Payment Standards and the New Economy</a></span>  </div></li>
+          <li class="views-row views-row-33 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/how-crypto-currencies-transform-money">How Crypto-Currencies Transform Money</a></span>  </div></li>
+          <li class="views-row views-row-34 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/good-bad-and-ugly-privacy-and-tracking-business-perspective">The Good, Bad, and Ugly of Privacy and Tracking: A Business Perspective</a></span>  </div></li>
+          <li class="views-row views-row-35 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/how-ripple-networks-are-transforming-money">How Ripple Networks are Transforming Money  </a></span>  </div></li>
+          <li class="views-row views-row-36 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/utilizing-paypal-adaptive-accounts-php">Utilizing PayPal Adaptive Accounts with PHP</a></span>  </div></li>
+          <li class="views-row views-row-37 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/crisis-money-and-its-metamorphosis">The Crisis of Money and Its Metamorphosis</a></span>  </div></li>
+          <li class="views-row views-row-38 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/sdk-power">SDK Power</a></span>  </div></li>
+          <li class="views-row views-row-39 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/future-digital-mobile">The Future of Digital Is Mobile</a></span>  </div></li>
+          <li class="views-row views-row-40 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/paypal-permissions-and-advantages-integrating-permissions-api">PayPal Permissions and the Advantages of Integrating the Permissions API</a></span>  </div></li>
+          <li class="views-row views-row-41 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/build-eticketing-system-paypal-python-and-google-app-engine">Build an eTicketing System with PayPal, Python, and Google App Engine</a></span>  </div></li>
+          <li class="views-row views-row-42 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/big-data%E2%80%94driving-revolution-understanding-what-under-hood">Big Data—Driving the Revolution by Understanding What Is Under the Hood</a></span>  </div></li>
+          <li class="views-row views-row-43 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/going-style-themes-and-apps-magento-go">Going with Style: Themes and Apps for Magento Go  </a></span>  </div></li>
+          <li class="views-row views-row-44 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/how-integrate-ebay-apis-basic-php-part-2">How to Integrate eBay APIs with Basic PHP, Part 2  </a></span>  </div></li>
+          <li class="views-row views-row-45 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/how-to-integrate-ebay-apis-with-basic-php-part-1">How to Integrate eBay APIs with Basic PHP, Part 1</a></span>  </div></li>
+          <li class="views-row views-row-46 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/utilizing-paypals-currency-conversion-api-for-fun-and-profit">Utilizing PayPal's Currency Conversion API for Fun and Profit</a></span>  </div></li>
+          <li class="views-row views-row-47 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/magento-integration-tests">Magento Integration Tests</a></span>  </div></li>
+          <li class="views-row views-row-48 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/future-digital-commerce-manifesto-digital-world-part-3">The Future of Digital Commerce: A Manifesto for a Digital World, Part 3</a></span>  </div></li>
+          <li class="views-row views-row-49 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/using-paypal-preapproval-api-goal-realization">Using the PayPal Preapproval API for Goal Realization  </a></span>  </div></li>
+          <li class="views-row views-row-50 views-row-even views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.x.com/devzone/articles/your-digital-boutique-should-be-your-next-business-manifesto-digital-world-part-2">Your Digital Boutique Should Be Your Next Business: A Manifesto for a Digital World, Part 2  </a></span>  </div></li>
+      </ul></div>    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-previous first">&nbsp;</li>
+<li class="pager-current">1 of 5</li>
+<li class="pager-next last"><a href="https://www.x.com/devzone/articles/using-paypals-adaptive-payments-and-google-app-engine-build-online-market-python?page=1" class="active">››</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>   </div>
+</div>
+  </div>
+</div>
+        
+        
+          <div id="content" class="has-left-sidebar">
+                    <div class="tabs">
+                      </div>
+                                <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+  
+  <div class="content">
+    
+<div class="">
+  <div id="article-header">
+    <h1>Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python</h1>
+  </div>
+
+      <div class="article-summary">
+      </div>
+  
+  <div class="css-body">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><!-- Content Start --> 
+<p>February 23, 2011<br>
+By <a href="http://www.supernifty.com.au/blog/" target="_blank" title="Peter Georgeson">Peter Georgeson</a></p><h2>Overview</h2><p>This multipart tutorial demonstrates how to build a complete online market application with <a href="http://code.google.com/appengine/" target="_blank" title="Google App Engine (GAE)">Google App Engine (GAE)</a>, <a href="https://www.x.com/community/ppx/documentation#ap" target="_blank" title="PayPal&#39;s Adaptive Payments">PayPal's Adaptive Payments</a>, and <a href="http://www.python.org/" target="_blank" title="Python">Python</a>. This series covers:</p><ul class="level1"><li>Setting up and configuring a GAE application</li><li>Building a GAE application in Python</li><li>Integrating with PayPal's Adaptive Payments API</li></ul><p>The application implements a simple online market. Sellers can sign up and offer items for sale. Users can browse and purchase these items.&nbsp;&nbsp; The application uses the PayPal API to make payments to sellers, with the website owner collecting a commission.</p><p>The source code for the example application developed for this tutorial is hosted at <a href="https://github.com/supernifty/gae-paypal-online-market-example" target="_blank" title="GitHub">GitHub</a>.</p><h2>The Technology</h2><h3>PayPal's Adaptive Payments</h3><p>PayPal's API provides the mechanism for transferring money in a number of interesting ways, which gives developers quite a bit of flexibility in the payment process. The provided payment flows are:</p><ul class="level1"><li><strong>Simple payment</strong>: The "traditional" payment model—from sender to a single recipient. For example, if you were selling your own goods online, you might use this method to collect payments from buyers.</li><li><strong>Parallel payment</strong>: Enables an application to collect a single payment and distribute it to as many as six recipients. For example, if a user purchased a basket of items from several merchants, he could pay each merchant from one payment.</li><li><strong>Chained payment</strong>: Enables a payment to a single "primary" recipient. This recipient keeps part of the payment and then passes on the remainder to up to five secondary recipients. For instance, if a booking agency collected payment, it could use this method to collect a commission before passing on the rest of the payment.</li></ul><p><img alt="PayPal&#39;s Adaptive Payments API" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/paypal-adaptive.png"></p><p>For further information, refer to PayPal's <a href="https://www.x.com/docs/DOC-1408">Introduction to Adaptive Payments</a>.</p><p>This application demonstrates both the simple and chained payment options of the PayPal Adaptive Payments API.</p><h3><br>Google App Engine</h3><p><a href="http://code.google.com/appengine/docs/whatisgoogleappengine.html" target="_blank" title="Google App Engine (GAE)">Google App Engine (GAE)</a> is a framework for building scalable applications. Google provides and manages all the infrastructure. App Engine is free to use for low-traffic applications.</p><p>Building an App Engine application is significantly different from typical web application development because you are building on top of Google's framework, which requires you to implement in a scalable way. For instance, you must use Google's data store for persistence, rather than a typical SQL database like MySQL. This forces your data storage to be scalable.</p><h3><br>Python</h3><p><a href="http://www.python.org/" target="_blank" title="Python">Python</a> is an easy-to-learn and powerful programming language. Note that GAE runs on Python 2.5—if you are used to a more recent version of Python, you may notice some slight differences in the Python libraries.</p><h2>Setting Up</h2><h3>Google App Engine</h3><p>To build this project, you will need an App Engine application. First, <a href="https://appengine.google.com/" target="_blank" title="sign up for App Engine">sign up for App Engine</a> (requires a Google account).</p><p>You need at least Python 2.5 installed on your machine. GAE is not compatible with Python 3. Then, <a href="http://code.google.com/appengine/downloads.html" target="_blank" title="App Engine SDK">download and install the App Engine SDK</a>. Choose the Google App Engine SDK for your operating system. This enables your application to be developed and run locally. The SDK also provides commands so you can upload your application to the App Engine servers.</p><h3>PayPal</h3><p>If you don't already have one, create a PayPal developer account at <a href="https://developer.paypal.com/" target="_blank" title="PayPal Developer">https://developer.paypal.com/</a> for testing. After creating your main developer account, you will also need to create seller and buyer test accounts. If you want to start accepting real money, you will also need to sign up for a live account at <a href="https://www.paypal.com/" target="_blank" title="PayPal">https://www.paypal.com/</a>.</p><p>Adaptive Payments also requires an application ID. While using the sandbox, you can use a test application ID, which is specified at <a href="https://www.x.com/community/ppx/testing" title="Community Testing">https://www.x.com/community/ppx/testing</a>. To get a live application ID, you need to log in to <a href="https://www.x.com/" title="X.com">https://www.x.com/</a> and follow the steps to create an application after clicking "My Apps." More details on this process are available at <a href="https://www.x.com/community/ppx/apps101/go-live" title="Apps 101">https://www.x.com/community/ppx/apps101/go-live</a>.</p><h2>Building the Application</h2><p>If you haven't already, download the sample application from <a href="https://github.com/supernifty/gae-paypal-online-market-example" target="_blank" title="GitHub">GitHub</a>.</p><h2>Settings</h2><p>Before running the application, you must first configure your PayPal credentials in <em>settings.py</em>. You can find your PayPal API credentials on the sandbox by clicking the API Credentials link in the left menu within PayPal, as shown in the following figure.</p><p><img alt="Where to find your API credentials on the PayPal sandbox" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/paypal-credentials.png"></p><ul class="level1"><li><strong>PAYPAL_USERID</strong>: The provided PayPal API username.</li><li><strong>PAYPAL_PASSWORD</strong>: The provided PayPal API password.</li><li><strong>PAYPAL_SIGNATURE</strong>: The provided PayPal API signature.</li><li><strong>PAYPAL_APPLICATION_ID</strong>: Your PayPal application ID; use <strong>APP-80W284485P519543T</strong> when using the sandbox.</li><li><strong>PAYPAL_EMAIL</strong>: Your PayPal email address; use your created seller account on the sandbox.</li></ul><p>To retrieve these values on a live application, you must first request the API credentials from PayPal. After logging in, click <strong>Profile→API Access</strong> and select <strong>Request API Signature</strong>. Your credentials will then be displayed. To obtain a live application ID, you must submit your application to PayPal for review.</p><h2>Configuration</h2><p><a href="http://code.google.com/appengine/docs/python/config/appconfig.html" target="_blank" title="app.yaml">app.yaml</a> is the main GAE configuration file for your application. This application uses a very simple configuration:</p>
+<pre><code>application: market
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /static
+&nbsp; static_dir: static
+
+- url: /.*
+&nbsp; script: main.py
+</code></pre>
+<p>This code:</p><ul class="level1"><li>Gives the application a name and version</li><li>Indicates that all requests starting with <em>/static</em> should be served from the static directory</li><li>Indicates that any other request should be handled by the <em>main.py</em> script</li></ul><p>One nifty thing you can do with GAE is easily maintain different versions of an application by setting the <em>version</em> tag. GAE will keep track of the state of your application for each version tag used.</p><h2>Application</h2><p>The main application is defined in <em>main.py</em>. There are a number of Python-based web frameworks available for GAE, such as Web2Py, Pylons, and Django. This application uses the included web framework, <a href="http://code.google.com/appengine/docs/python/gettingstarted/usingwebapp.html" target="_blank">webapp</a>, which provides a simple mechanism for defining a URL dispatcher, as well as a number of request handlers.</p><p>At the bottom of <em>main.py</em> is the main dispatcher. This defines the URL patterns that the application will accept and defines handlers for these patterns. As with Django, these URLs are regular expressions, and matches in brackets become parameters for the request handler.</p>
+<pre><code>application = webapp.WSGIApplication( [
+&nbsp;&nbsp;&nbsp; ('/', Home),
+&nbsp;&nbsp;&nbsp; ('/sell', Sell),
+&nbsp;&nbsp;&nbsp; ('/sell/(.*)/', Sell),
+&nbsp;&nbsp;&nbsp; ('/buy/(.*)/return/(.*)/(.*)/', BuyReturn),
+&nbsp;&nbsp;&nbsp; ('/buy/(.*)/cancel/(.*)/', BuyCancel),
+&nbsp;&nbsp;&nbsp; ('/buy/(.*)/', Buy),
+&nbsp;&nbsp;&nbsp; ('/image/(.*)/', Image),
+&nbsp; ],
+&nbsp; debug=True)
+
+def main():
+&nbsp;&nbsp;&nbsp; run_wsgi_app(application)
+
+if __name__ == "__main__":
+&nbsp;&nbsp;&nbsp; main()
+</code></pre>
+<p>Each request handler is a subclass of <em>webapp.RequestHandler</em> and implements methods corresponding to the HTTP request type. For instance, the <em>Home</em> request handler looks like:</p>
+<pre><code>class Home(webapp.RequestHandler):
+&nbsp; def get(self):
+&nbsp;&nbsp;&nbsp; data = {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'items': model.Item.recent(),
+&nbsp;&nbsp;&nbsp; }
+&nbsp;&nbsp;&nbsp; util.add_user( self.request.uri, data )
+&nbsp;&nbsp;&nbsp; path = os.path.join(os.path.dirname(__file__), 'templates/main.htm')
+&nbsp;&nbsp;&nbsp; self.response.out.write(template.render(path, data))
+</code></pre>
+<h2>Model</h2><p>GAE provides access to its datastore in a similar way to Django. For instance, the <em>Item</em> class is defined in <em>model.py</em> as:</p>
+<pre><code>class Item(db.Model):
+&nbsp; '''an item for sale'''
+&nbsp; owner = db.UserProperty()
+&nbsp; created = db.DateTimeProperty(auto_now_add=True)
+&nbsp; title = db.StringProperty()
+&nbsp; price = db.IntegerProperty() # cents
+&nbsp; image = db.BlobProperty()
+&nbsp; enabled = db.BooleanProperty()
+
+&nbsp; def price_dollars( self ):
+&nbsp;&nbsp;&nbsp; return self.price / 100.0
+
+&nbsp; @staticmethod
+&nbsp; def recent():
+&nbsp;&nbsp;&nbsp; return Item.all().filter( "enabled =", True ).order('-created').fetch(10)
+</code></pre>
+<p>Behind the scenes, GAE's datastore is schemaless, distributed, and scalable. Google provides a language called GQL, which is similar but more limited than SQL. GQL prevents certain nonscalable queries, such as joins and aggregate queries.</p><h2>Templates</h2><p>In the <em>templates</em> directory are the HTML templates. Google's <em>webapp</em> framework includes the <a href="http://docs.djangoproject.com/en/dev/ref/templates/builtins/" target="_blank" title="Django template system">Django template system</a>, which we use in this application; however, many others are available on GAE.</p><h3>PayPal</h3><p><em>paypal.py</em> implements the interface between this application and PayPal's Adaptive Payments API.</p><p>The process of purchasing an item is reasonably simple:</p><ol><li><strong>The user clicks "Buy."</strong> The <em>Buy</em> class generates a "secret" and builds a return URL to give to PayPal. The user is redirected to PayPal.</li><li><strong>The user completes the purchase process.</strong> The application provides PayPal with return URLs. Once the transaction is completed, the user will be redirected back to the application.</li><li><strong>The application verifies the transaction.</strong> A successful transaction redirects the user back to the <em>BuyReturn</em> class, which updates the datastore with the transaction result. This URL must include the "secret," which was passed to PayPal as the return URL. This prevents an attacker from bypassing PayPal and returning directly to this page without paying.</li></ol><h2>Running the Application</h2><p>To run the application locally:</p><ol><li>Start up the Google App Engine Launcher. Windows and Mac come with an easy-to-use GUI.</li><li>Add an existing application: <strong>File→Add Existing Application</strong>.</li><li>Browse to the <em>app</em> directory in your local GitHub repository.</li><li>Click "Run."</li><li>Browse to <a href="http://127.0.0.1:8080/" target="_blank">http://127.0.0.1:8080/</a>.</li></ol><p>You should see something like the following figure.</p><p><br>&nbsp;&nbsp; <img alt="Sample application home page" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/home.png"></p><p>To run through the basic functionality of the application, first <a href="http://127.0.0.1:8080/sell" target="_blank">add an item to sell</a>, and then buy it.</p><h2>Deploying the Application</h2><p>Before an application can be deployed, an application must first be created. Go to <a href="https://appengine.google.com/" target="_blank" title="AppEngine Google">https://appengine.google.com/</a> and click "Create an Application."</p><p><br>&nbsp;&nbsp; <img alt="Create an application on GAE" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/gae-create.png"></p><p>Find an unused application ID. Once you have done this, edit <em>app.yaml</em> and change the application setting to the same name.</p><p>In the Google App Engine Launcher, your application should now show the correct application ID. Select this and click "Deploy." This process can take a few minutes, so keep an eye on the GAE console log to see when the application has successfully deployed.</p><p><span>Once the deployment process is complete, go to </span><a class="jive-link-external-small" href="http:">http://</a><em>your application </em><em>id</em>.appspot.com//, replacing <em>your application id</em> with your own ID.</p><p><em>Voilà!</em>—your application is live!</p><h2>In the Next Part…</h2><p>This part of the tutorial introduced Google App Engine and PayPal's Adaptive Payments with a simple online marketplace application.</p><p>Part 2 of this tutorial will extend the application by introducing chained payments, embedded payments, and IPN.</p><h2>Links and Further Information</h2><ul class="level1"><li><a href="https://github.com/supernifty/gae-paypal-online-market-example" target="_blank" title="Sample Application and Source Code">Sample Application and Source Code</a></li><li><a href="https://cms.paypal.com/cms_content/US/en_US/files/developer/PP_AdaptivePayments.pdf" target="_blank" title="PayPal Adaptive Payments Documentation (PDF)">PayPal Adaptive Payments Documentation (PDF)</a></li><li><a href="http://code.google.com/appengine/" target="_blank" title="Google App Engine">Google App Engine</a></li><li><a href="http://code.google.com/appengine/docs/python/datastore/" target="_blank" title="App Engine&#39;s Datastore">App Engine's Datastore</a></li></ul><!-- Content End --></div></div></div>  </div>
+</div>
+
+<!--Adding comments for Document trypes -->
+          </div>
+</div>
+  </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <div id="bottom-border"></div>
+  <div class="clearfix"></div>
+  <div id="inner-footer">
+    <div id="oldfooter">
+      <div class="feedback-button-container">
+        <a class="feedback-button" href="https://www.x.com/site-feedback">Site Feedback</a>
+      </div>
+      
+        <div class="region region-footer">
+    <div id="block-insights-insights-follow" class="block block-insights">
+
+  
+  <div class="h2-header"></div>
+  <div class="h2-box">
+  <h2>pages/Xcommerce/129148593831799</h2>
+  </div>
+  <div class="h2-footer"></div>
+  
+  
+  <div class="content">
+    <div id="insights-title">Follow Our Insights</div><div class="insights-link insights-facebook"><a href="http://www.facebook.com/pages/Xcommerce/129148593831799"></a></div><div class="insights-link insights-twitter"><a href="http://twitter.com/x_commerce"></a></div><div class="insights-link insights-linked_in"><a href="http://www.linkedin.com/company/2287935"></a></div>  </div>
+</div>
+<div id="block-block-101" class="block block-block">
+
+  
+  <div class="content">
+    <style type="text/css">
+
+
+/*** Sidebar Positioning**/
+
+#sidebar-left, #sidebar-right { float: left; width: 200px  }
+#sidebar-right { float: right; padding-left: 20px }
+#sidebar-left { width: 180px; padding-right: 20px }
+#sidebar-right.front-page { width: 220px }
+
+
+
+/*** Left Sidebars**/
+
+ul.menu li.leaf { list-style-image: none }
+ul li.collapsed { list-style-image: url(/sites/all/themes/x/images/misc/menu-collapsed.png); list-style-type: disc; }
+ul li.collapsed a { margin-left:10px }
+ul li.expanded {list-style-image: url(/sites/all/themes/x/images/misc/menu-expanded.png); list-style-type: circle }
+ul li.expanded a { margin-left:10px; border: none }
+
+
+#sidebar-left .block.block-block { margin-bottom:18px }
+
+
+#block-views-docs-and-tools-menu-block h3, #block-views-docs-and-tools-menu-block ul li, #sidebar-left .block-menu-block ul.menu li, #sidebar-left ul li { font-size: 12px; border:1px solid #ccc; border-width:0px 0 1px 0; list-style:none; margin:0px; padding:2px 0 2px 7px }
+  #sidebar-left .block-menu-block ul.menu li ul { border:1px solid #ccc; border-width:1px 0 0 0; margin-left:-1px }
+  #block-views-docs-and-tools-menu-block ul li, #sidebar-left .block-menu-block ul.menu li ul li {  margin-left: -2px }
+
+#block-views-applications-block-1 .view-row { border-bottom: 1px solid #ccc; padding:3px 10px }
+
+#block-views-docs-and-tools-menu-block h3 { padding:6px 5px; font-size: 12px; border: 0px; color: #666; font-style:italic }
+#block-views-docs-and-tools-menu-block ul { border: 1px solid #ccc; border-right: 0; border-left: 0; padding: 0; margin: 0 }
+#block-views-docs-and-tools-menu-block ul li { padding: 2px 0 2px 7px }
+#block-views-docs-and-tools-menu-block ul li a { padding-left: 10px }
+#block-views-docs-and-tools-menu-block ul li.views-row-last { border: none }
+#node.node-quick-start-guides.clearfix  ul li:last-child { border: none } 
+
+
+
+
+ /** Left Bar Header Box **/
+  .qs-menu,
+  #block-views-apps-user-list-block,
+  #block-views-applications-block-1,
+  #block-views-docs-and-tools-menu-block,
+  #block-views-forum-list-card-block,
+  #sidebar-left .block-menu-block { padding-top:12px; width: 180px; margin-bottom: 30px; }
+
+  .qs-menu h2,
+  block-views-apps-user-list-block h2,
+  #block-views-applications-block-1 h2,
+  #block-views-docs-and-tools-menu-block h2,
+  #block-views-forum-list-card-block h2,
+  #sidebar-left h2,
+  #sidebar-left .block-menu-block h2 { color: white; font-size: 15px; padding:4px 10px; font-weight:bold; margin-top:0px !important; margin-bottom:0px !important }
+
+  .qs-menu .h2-header,
+  block-views-apps-user-list-block .h2-header,
+  #block-views-applications-block-1 .h2-header,
+  #block-views-docs-and-tools-menu-block .h2-header,
+  #block-views-forum-list-card-block .h2-header,
+  #sidebar-left .h2-header,
+  #sidebar-left .block-menu-block .h2-header { background:url('/sites/all/themes/x/images/leftSideHeader.png') no-repeat; height:3px }
+
+  .qs-menu .h2-box,
+  block-views-apps-user-list-block .h2-box,
+  #block-views-applications-block-1 .h2-box,
+  #block-views-docs-and-tools-menu-block .h2-box,
+  #block-views-forum-list-card-block .h2-box,
+  #sidebar-left .h2-box,
+  #sidebar-left .block-menu-block .h2-box { background-color: #898989; background-image: url('/sites/all/themes/x/images/leftSideHeaderMid.png'); background-repeat: no-repeat; width: 180px}
+
+  .qs-menu .h2-footer,
+  block-views-apps-user-list-block .h2-footer,
+  #block-views-applications-block-1 .h2-footer,
+  #block-views-docs-and-tools-menu-block .h2-footer,
+  #block-views-forum-list-card-block .h2-footer,
+  #sidebar-left .h2-footer,
+  #sidebar-left .block-menu-block .h2-footer { background:url('/sites/all/themes/x/images/leftSideHeader.png') no-repeat 0 -5px; height:4px; margin-bottom:5px }
+  
+  #block-products-product-selection-help { width: 180px }
+
+
+/**Lists in Left Sidebar Nav**/
+
+#sidebar-left #article-nav ul {
+margin-top: 7px;
+list-style-type: none; 
+}
+
+#sidebar-left #article-nav li {
+margin:5px !important;
+border-bottom:1px solid #e8e8e8 !important;
+padding:5px !important;
+}
+
+  /** Right Sidebar (non-rail)**/
+   #sidebar-right h2 { margin-bottom: 6px }
+   #sidebar-right ul li { margin-bottom: 6px } 
+   #sidebar-left .block-menu-block ul.menu li ul li { margin-bottom: 6px; margin-left:20px}
+
+
+  
+  
+  
+  
+  /** Right Rail**/
+  .region-refined-search,
+  .region-related-information,
+  #block-views-forums-newest-questions-block,
+  #block-views-sdk-block-2, 
+  #block-views-code-samples-recent-update,
+  #block-views-quick-start-guides-block-2,
+  #block-views-api-index-updated-apis-block,
+  #block-views-country-user-list-block, 
+  #block-views-forum-top-participants-block,
+  #block-views-updated-documentation-block,
+  #block-views-pe-event-list-block-1,
+  #block-views-site-status-paypal-block { border: 1px solid #ccc; padding:10px 0; margin-bottom:14px; margin-top: 14px }
+
+  .region-refined-search h1,
+  .region-related-information h1,
+  #block-views-forums-newest-questions-block h2,
+  #block-views-sdk-block-2 h2,
+  #block-views-code-samples-recent-update h2,
+  #block-views-quick-start-guides-block-2 h2,
+  #block-views-api-index-updated-apis-block h2,
+  #block-views-country-user-list-block h2, 
+  #block-views-forum-top-participants-block h2,
+  #block-views-updated-documentation-block h2,
+  #block-views-pe-event-list-block-1 h2, 
+  #block-views-site-status-paypal-block h2 { height: 50px; padding:0 20px 0 75px; font-size:15px; font-weight: normal; border-bottom:1px solid #ccc; }
+
+  .region-refined-search .block,
+  .region-related-information .block,
+  #block-views-forums-newest-questions-block  .view-content,
+  #block-views-apps-user-list-block .view-content,
+  #block-views-sdk-block-2 .view-content, 
+  #block-views-code-samples-recent-update .view-content,
+  #block-views-quick-start-guides-block-2 .view-content,
+  #block-views-api-index-updated-apis-block .view-content,
+  #block-views-country-user-list-block .view-content, 
+  #block-views-forum-top-participants-block .view-content,
+  #block-views-updated-documentation-block .view-content, 
+  #block-views-pe-event-list-block-1 .view-content, 
+  #block-views-site-status-paypal-block .view-content { padding:0 5px 0 15px; word-wrap: break-word }
+
+  .region-refined-search .block,  
+  .region-related-information .block,
+  #block-views-forums-newest-questions-block  .views-row,
+  #block-views-sdk-block-2 .view-content .views-row, 
+  #block-views-code-samples-recent-update .view-content .views-row,
+  #block-views-quick-start-guides-block-2 .view-content .views-row,
+  #block-views-api-index-updated-apis-block .view-content .views-row,
+  #block-views-country-user-list-block .view-content .views-row, 
+  #block-views-forum-top-participants-block .view-content .views-row,
+  #block-views-updated-documentation-block .view-content .views-row,
+  #block-views-pe-event-list-block-1 .view-content .views-row,
+  #block-views-site-status-paypal-block .view-content .views-row { padding:9px 0 0 0; }
+
+  #block-views-apps-user-list-block .view-content { padding: 0 5px 0 5px }
+
+ 
+  /** Related Information Blocks**/
+    .region-refined-search div.block, .region-related-information div.block { margin-bottom: 20px }
+  .region-refined-search div.block h2, .region-related-information div.block h2 { font-weight: bold; color: #333; font-size: 12px }
+  .region-refined-search div.block .div.block .views-row, .region-related-information div.block .views-row { padding-top: 5px }
+  .region-refined-search div.block .div.block .item-list ul li, .region-related-information div.block .item-list ul li { margin: 0; padding-bottom: 10px }
+  .region-related-information div.block .item-list ul ul li { padding-left: 8px }
+  .region-refined-search .block, .region-related-information .block { padding:15px 0 0 15px } 
+  .region-related-information div.block { border:none; margin-bottom:14px } 
+  .region-refined-search, .region-related-information { background: url('/sites/all/themes/x/images/relatedInformationBackground.png') no-repeat 5px 1px; margin-bottom: 0 }
+  #sidebar-right .region-refined-search .block, #sidebar-right .region-related-information .block { padding: 0 15px } 
+  #sidebar-right .region-refined-search h1, #sidebar-right .region-related-information h1 { margin-bottom: 8px }
+  #block-block-79.block.block-block.contextual-links-region { border:none }
+  #block-block-80.block.block-block.contextual-links-region { border:none }
+  #block-block-80.block.block-block.contextual-links-region { border:none }
+  #block-block-81.block.block-block.contextual-links-region { border:none }
+  #block-block-82.block.block-block.contextual-links-region { border:none }
+  #block-block-83.block.block-block.contextual-links-region { border:none }
+  #block-block-84.block.block-block.contextual-links-region { border: none }
+  #block-block-85.block.block-block.contextual-links-region { border: none }
+  #block-block-86.block.block-block.contextual-links-region { border: none }
+  #block-block-87.block.block-block.contextual-links-region { border: none }
+  #block-block-88.block.block-block.contextual-links-region { border: none }
+  #block-block-89.block.block-block.contextual-links-region { border: none }
+  #block-block-90.block.block-block.contextual-links-region { border: none }
+  #block-block-91.block.block-block.contextual-links-region { border: none }
+  #block-block-92.block.block-block.contextual-links-region { border: none }
+  #block-block-93.block.block-block.contextual-links-region { border: none }
+  #block-block-94.block.block-block.contextual-links-region { border: none }
+  #block-block-95.block.block-block.contextual-links-region { border: none }
+  #block-block-96.block.block-block.contextual-links-region { border: none }
+  #block-block-97.block.block-block.contextual-links-region { border: none }
+  #block-block-98.block.block-block.contextual-links-region { border: none }
+  #block-block-99.block.block-block.contextual-links-region { border: none }
+  #block-block-100.block.block-block.contextual-links-region { border: none }
+
+
+ 
+ 
+  /** Right Rail Header Box **/
+  #block-views-products-related { -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; border:1px solid #ccc; padding-top:0px; background:url('/sites/all/themes/x/images/rightSideHeader.png') no-repeat top center; width: 200px; }
+  #block-views-products-related h2 { color: white; padding:5px; font-size: 15px; padding:8px 10px;  }
+  
+  .region-related-information .block .view-empty, #block-views-forums-newest-questions-block .view-empty, #block-views-sdk-block-2 .view-content .view-empty, #block-views-code-samples-recent-update .view-content .view-empty, #block-views-quick-start-guides-block-2 .view-content .view-empty, #block-views-api-index-updated-apis-block .view-content .view-empty, #block-views-country-user-list-block .view-content .view-empty, #block-views-forum-top-participants-block .view-content .view-empty, #block-views-updated-documentation-block .view-content .view-empty, #block-views-pe-event-list-block-1 .view-content .view-empty, #block-views-site-status-paypal-block .view-content .view-empty { padding: 0 }
+  
+ </style>  </div>
+</div>
+<div id="block-menu-block-3" class="block block-menu-block">
+
+  
+  <div class="h2-header"></div>
+  <div class="h2-box">
+  <h2>Footer</h2>
+  </div>
+  <div class="h2-footer"></div>
+  
+  
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-3 menu-name-menu-footer parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-716"><a href="https://www.x.com/home" title="">X.commerce</a></li>
+<li class="leaf menu-mlid-783"><a href="https://www.x.com/developers/ebay" title="">eBay Developer Network</a></li>
+<li class="leaf menu-mlid-784"><a href="https://www.x.com/developers/paypal" title="">PayPal Developer Network</a></li>
+<li class="leaf menu-mlid-785"><a href="http://www.magentocommerce.com/" title="">Magento</a></li>
+<li class="leaf menu-mlid-729"><a href="https://www.x.com/corporate/newsroom" title="">Newsroom</a></li>
+<li class="leaf menu-mlid-728"><a href="https://www.x.com/privacy">Privacy Statement</a></li>
+<li class="leaf menu-mlid-730"><a href="https://www.x.com/legal">Legal Terms</a></li>
+<li class="leaf menu-mlid-14586"><a href="https://www.x.com/developers/security-center-old" title="">Security Center</a></li>
+<li class="leaf menu-mlid-731"><a href="https://www.x.com/site-map">Site Map</a></li>
+<li class="last leaf menu-mlid-1189"><a href="https://www.x.com/" title="">Copyright 1999- 2012 X.commerce. All rights reserved.</a></li>
+</ul></div>
+  </div>
+</div>
+  </div>
+      
+      <div id="omniture">
+        <script language="JavaScript" type="text/javascript" src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/omniture_jscode_080706.js"></script>
+        <script language="JavaScript" type="text/javascript">
+          //Core Variables
+          s.pageName="X.com: Using PayPal&#039;s Adaptive Payments and Google App Engine to Build an Online Market with Python";
+          s.server="devx"; //Website
+          s.channel="x.commerce"; //Site Section (Feature)
+          s.prop25="X.com: Using PayPal&#039;s Adaptive Payments and Google App Engine to Build an Online Market with Python";  //pageName2
+          /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+          var s_code=s.t();if(s_code)document.write(s_code); if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-') //-->
+        </script>
+        <noscript>
+        &lt;img src="//paypal.112.2O7.net/b/ss/paypalxdotcom/1/H.6--NS/0?pageName=NonJavaScript" height="1" width="1" border="0" alt="" /&gt;
+	</noscript>
+        <!--/DO NOT REMOVE/-->
+        <!-- End SiteCatalyst Code -->
+      </div>
+
+      <div id="visualwebsiteoptimizer">
+        <!-- Start Visual Website Optimizer Code -->
+    
+        <script type="text/javascript">
+          var _vis_opt_account_id = 16100;
+          var _vis_opt_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://');
+          document.write('<s' + 'cript src="' + _vis_opt_protocol + 
+          'dev.visualwebsiteoptimizer.com/deploy/js_visitor_settings.php?v=1&a='+_vis_opt_account_id+'&url='
+          +encodeURIComponent(document.URL)+'&random='+Math.random()+'" type="text/javascript">' + '<\/s' + 'cript>');
+        </script><script src="./Using PayPal's Adaptive Payments and Google App Engine to Build an Online Market with Python   X.commerce_files/js_visitor_settings.php" type="text/javascript"></script>
+    
+        <script type="text/javascript">
+          if(typeof(_vis_opt_settings_loaded) == "boolean") { document.write('<s' + 'cript src="' + _vis_opt_protocol + 
+          'd5phz18u4wuww.cloudfront.net/vis_opt.js" type="text/javascript">' + '<\/s' + 'cript>'); }
+          // if your site already has jQuery 1.4.2, replace vis_opt.js with vis_opt_no_jquery.js above
+        </script>
+    
+        <script type="text/javascript">
+          if(typeof(_vis_opt_settings_loaded) == "boolean" && typeof(_vis_opt_top_initialize) == "function") {
+                  _vis_opt_top_initialize(); vwo_$(document).ready(function() { _vis_opt_bottom_initialize(); });
+          }
+        </script>
+        <!-- End Visual Website Optimizer Code -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Footer lives outside the grid because it's full-width-->
+<div id="footer" class="grid-12">
+  <div class="centerbox">
+    <ul class="menu"><li class="first expanded"><a href="https://www.x.com/developers" title="">Developer Resources</a><ul class="menu"><li class="first leaf"><a href="https://www.x.com/developers/how-can-we-help-you" title="">Support</a></li>
+<li class="last leaf"><a href="https://www.x.com/developers/sandbox-testing-environments" title="">Sandbox Testing</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.x.com/merchants" title="">Merchant Resources</a><ul class="menu"><li class="first last leaf"><a href="http://www.magentocommerce.com/" title="">Magento Merchants</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.x.com/corporate" title="">About X.commerce</a><ul class="menu"><li class="first leaf"><a href="https://www.x.com/developers/security-center-old" title="">Security Center</a></li>
+<li class="last leaf"><a href="https://www.x.com/site-map" title="">Site Map</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.x.com/corporate/where-find-us" title="">Follow Us</a><ul class="menu"><li class="first leaf"><a href="http://www.facebook.com/XcommerceFans" title="">Facebook</a></li>
+<li class="leaf"><a href="http://twitter.com/#!/x_commerce" title="">Twitter</a></li>
+<li class="last leaf"><a href="http://www.linkedin.com/company/2287935" title="">LinkedIn</a></li>
+</ul></li>
+</ul>  </div>
+</div>
+
+<div id="subfooter" class="grid-12">
+  <div class="centerbox">
+    <div class="intl">
+      &nbsp;    </div>
+    <div class="copyright">
+      Copyright 2013 X.commerce, Inc. All rights reserved. <a href="https://www.x.com/developers/x.commerce/legal-terms">Legal Terms</a> | <a href="https://www.x.com/privacy">Privacy Policy</a>.
+    </div>
+    <div class="feedback">
+      Let us know what you think <a href="https://www.x.com/contact">Site Feedback</a>    </div>
+  </div>
+</div>
+<!--/Footer-->
+
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+  (function($) {
+    Drupal.behaviors.jReject = {
+      attach: function (context, settings) {
+        $.reject({
+        display: ["msie", "firefox", "safari", "chrome", "gcf"],
+          reject: {  
+              msie5: true, msie6: true, msie7: true, firefox2: true, firefox3: true, firefox4: true, firefox5: true, firefox6: true, firefox7: true, firefox8: true, firefox9: true, chrome1: true, chrome2: true, chrome3: true, chrome4: true, chrome5: true, chrome6: true, chrome7: true, chrome8: true, chrome9: true, chrome10: true, chrome11: true, chrome12: true, chrome13: true, chrome14: true, chrome15: true, safari1: true, safari2: true, safari3: true, safari4: true, opera1: true, opera2: true, opera3: true, opera4: true, opera5: true, opera6: true, opera7: true, opera8: true, opera9: true
+          },
+          imagePath: '/sites/all/modules/contrib/jreject/jReject/images/',
+          enable: true, header: "We've noticed that you may be using an older version of your Internet browser.", paragraph1: "<strong>This could result in minor display issues.</strong>", paragraph2: "To optimize your experience on x.com, choose your browser from the icons below and click to download a secure update. ", closeMessage: "If you'd rather not update your browser now, simply close this window and continue to x.com.", closeLink: "Close This Window", closeURL: "#", close: true, closeESC: true, closeCookie: true, overlayBgColor: "#000", overlayOpacity: 0.8, fadeInTime: "fast", fadeOutTime: "fast"
+        }); 
+        return false;  
+      }
+    }
+  })(jQuery);
+//--><!]]>
+</script>
+
+
+</div></body></html>

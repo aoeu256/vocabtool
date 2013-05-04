@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkout-shopping-cart xmlns="http://checkout.google.com/schema/2">
+  <shopping-cart>
+    <items>
+      <item>
+        <item-name>Registration Fee</item-name>
+        <item-description>Register to unlock the full features and vocabulary of this program.</item-description>
+        <unit-price currency="USD">{{price}}</unit-price>
+        <quantity>1</quantity>
+
+        <digital-content>
+          <display-disposition>PESSIMISTIC</display-disposition>
+          <description>
+            Please go to &amp;lt;a href="{{url}}"&amp;gt;our website&amp;lt;/a&amp;gt;,
+            now that the purchase is complete.
+          </description>
+          <key>{{key}}</key>
+          <url>{{url}}</url>
+        </digital-content>
+		 
+
+      </item>
+    </items>
+  </shopping-cart>
+</checkout-shopping-cart>

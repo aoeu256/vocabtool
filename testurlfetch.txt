@@ -1,0 +1,27 @@
+from google.appengine.api import users, urlfetch
+from xml.minidom import minidom
+import urllib
+url = 'https://sandbox.google.com/checkout/api/checkout/v2/merchantCheckout/Merchant/139786509611316'
+
+
+form_fields = {
+"item_name_1"  :"Register",
+"item_description_1"  :"Register to unlock the rest of the vocabulary.",
+"item_quantity_1"  :"1",
+"item_price_1"  :"20",
+"item_currency_1"  :"USD",
+"shopping-cart.items.item-1.digital-content.key"  :"Co5Loj2u7fU7f25bRBeJBE29oa4Gad7Zt0X45r6bY2Q=",
+"shopping-cart.items.item-1.digital-content.key.is-encrypted"  :"true",
+"shopping-cart.items.item-1.digital-content.url"  :"http://www.google.com",
+"_charset_"  :"utf-8"
+}
+form_data = urllib.urlencode(form_fields)
+
+result = urlfetch.fetch(url=url,
+                        payload=form_data,
+                        method=urlfetch.POST,
+                        headers={'Content-Type': 'application/x-www-form-urlencoded'})
+
+#print result.status_code
+#print result.content
+

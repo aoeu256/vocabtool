@@ -1,0 +1,17 @@
+application: aoeugame
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /js
+  static_dir: js
+  mime_type: text/plain
+- url: /graphics
+  static_dir: graphics
+- url: /sounds
+  static_dir: sounds
+- url: /.*
+  script: main.py
+
+ 

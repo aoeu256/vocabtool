@@ -1,0 +1,899 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ent",
+				"enterTextMode"
+			],
+			[
+				"leng",
+				"length"
+			],
+			[
+				"cha",
+				"changePage"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"rand",
+				"randint"
+			],
+			[
+				"pars",
+				"parseJSON"
+			],
+			[
+				"storyra",
+				"storyRated"
+			],
+			[
+				"story",
+				"storypopup"
+			],
+			[
+				"mat",
+				"match"
+			],
+			[
+				"slot",
+				"slotmode"
+			],
+			[
+				"Nn",
+				"Nnewitems"
+			],
+			[
+				"upda",
+				"updateAllSlots"
+			],
+			[
+				"const",
+				"construct"
+			],
+			[
+				"se",
+				"setupfooter"
+			],
+			[
+				"start",
+				"startpage"
+			],
+			[
+				"tr",
+				"trigger"
+			],
+			[
+				"p",
+				"prototype"
+			],
+			[
+				"st",
+				"stat"
+			],
+			[
+				"las",
+				"laststatec"
+			],
+			[
+				"last",
+				"laststatec"
+			],
+			[
+				"lastt",
+				"laststatec"
+			],
+			[
+				"sl",
+				"slotq"
+			],
+			[
+				"chang",
+				"changeNavi"
+			],
+			[
+				"shift",
+				"shifted"
+			],
+			[
+				"cons",
+				"constructor"
+			],
+			[
+				"nr",
+				"nreviewed"
+			],
+			[
+				"succ",
+				"succfail"
+			],
+			[
+				"Soun",
+				"SoundEffect"
+			],
+			[
+				"con",
+				"constructor"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"split",
+				"splitAt"
+			],
+			[
+				"spli",
+				"splitAt"
+			],
+			[
+				"rend",
+				"rendererOptions"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"gra",
+				"graphnav"
+			],
+			[
+				"i",
+				"isnt"
+			],
+			[
+				"grap",
+				"graphpage"
+			],
+			[
+				"list",
+				"listview"
+			],
+			[
+				"v",
+				"v"
+			],
+			[
+				"now",
+				"now"
+			],
+			[
+				"int",
+				"interval"
+			],
+			[
+				"g",
+				"getdefault"
+			],
+			[
+				"word",
+				"wordsource"
+			],
+			[
+				"wor",
+				"wordsource"
+			],
+			[
+				"er",
+				"errormode"
+			],
+			[
+				"ma",
+				"matchhand"
+			],
+			[
+				"Ni",
+				"Nitems-1"
+			],
+			[
+				"ran",
+				"randItem"
+			],
+			[
+				"getd",
+				"getdefault"
+			],
+			[
+				"h",
+				"h"
+			],
+			[
+				"N",
+				"Nnewitems"
+			],
+			[
+				"act",
+				"actualstate"
+			],
+			[
+				"err",
+				"errorwords"
+			],
+			[
+				"lst",
+				"lst"
+			],
+			[
+				"ch",
+				"changePage"
+			],
+			[
+				"clic",
+				"click"
+			],
+			[
+				"set",
+				"setupbuttons"
+			],
+			[
+				"swi",
+				"switchPage"
+			],
+			[
+				"due",
+				"dueToday"
+			],
+			[
+				"words",
+				"words"
+			],
+			[
+				"ga",
+				"gameloop"
+			],
+			[
+				"dueT",
+				"dueTomorrow"
+			],
+			[
+				"minu",
+				"minuteFormat"
+			],
+			[
+				"du",
+				"dummyitems"
+			],
+			[
+				"Nie",
+				"Nitems"
+			],
+			[
+				"nex",
+				"nextstate"
+			],
+			[
+				"get",
+				"getnextstate"
+			],
+			[
+				"erro",
+				"errormatch"
+			],
+			[
+				"show",
+				"shownday"
+			],
+			[
+				"spl",
+				"splitAt"
+			],
+			[
+				"sp",
+				"splitAt"
+			],
+			[
+				"myl",
+				"mylslt"
+			],
+			[
+				"d",
+				"dd"
+			],
+			[
+				"dd",
+				"daydiff"
+			],
+			[
+				"round",
+				"round"
+			],
+			[
+				"error",
+				"errorwords"
+			],
+			[
+				"rev",
+				"review"
+			],
+			[
+				"lo",
+				"loopcount"
+			],
+			[
+				"key",
+				"keyword"
+			],
+			[
+				"eror",
+				"error"
+			],
+			[
+				"ke",
+				"keyword"
+			],
+			[
+				"all",
+				"allerorr"
+			],
+			[
+				"ha",
+				"hanzi"
+			],
+			[
+				"sele",
+				"select"
+			],
+			[
+				"Nit",
+				"Nitems-1"
+			],
+			[
+				"re",
+				"reload"
+			],
+			[
+				"han",
+				"hanzi"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "game.coffee",
+			"settings":
+			{
+				"buffer_size": 50461,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<html lang=\"en\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n  <meta charset=\"utf-8\">\n\n  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame \n       Remove this if you use the .htaccess -->\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\n  <title> Rapid Chinese Vocabulary Aquasition Tool </title>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <script src=\"./js/jquery-1.8.2.min.js\"></script>\n  <link rel=\"stylesheet\" href=\"./js/jquery.mobile-1.2.0.min.css\" />\n  <script src=\"./js/jquery.mobile-1.2.0.js\"></script> \n \n \n  <script language=\"javascript\" type=\"text/javascript\" src=\"./js/jquery.jqplot.min.js\"></script>\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"./js/jquery.jqplot.css\" />\n  <script type=\"text/javascript\" src=\"./js/plugins/jqplot.canvasTextRenderer.min.js\"></script>\n  <script type=\"text/javascript\" src=\"./js/plugins/jqplot.canvasAxisLabelRenderer.min.js\"></script>\n\n  <style type=\"text/css\">\n  	\n	.hilight {\n		background: #FFFF00;\n	}\n	\n	.correct {\n		background: #00FFA0;\n	}\n	\n	.wrong {\n		background: #FF1111;\n	}\n	\n	.popupContent {\n		overflow: scroll;\n		overflow-y:scroll;\n		overflow-x: hidden;\n		height: 400px;	\n	}\n	\n	#popupDialog {\n		width:75%;\n		left:25%;\n		visibility:hidden;\n		position: fixed;\n		margin-top: auto;\n		margin-bottom: auto;		\n	}\n	\n	#storypopup {\n		width:75%;\n		left:25%;\n		height: 90%;		\n		/*visibility:hidden;*/			\n		position: fixed;\n	}\n\n	.bar { position:absolute; top:3x; left: 3px; background-color: #B4F5B4; width:0%; height:20px; max-width:240px; border-radius: 3px;}\n	.percent { position:absolute; display:inline-block; top:3px; left:48%; }	\n  </style>\n<script type=\"text/JavaScript\" src=\"./js/json2.js\"></script>  \n<!--<script type=\"text/JavaScript\" src=\"./js/underscore.js\"></script>-->\n<!--<script type='text/Javascript' src=\"./js/loader.js\"></script>-->\n\n\n<script type='text/Javascript' src='./js/game.js'></script>\n\n\n<script type=\"text/javascript\">\n	//$.mobile.listview.prototype.options.theme = 'e';\n	//$.mobile.listview.prototype.options.inset = true;\n	//$.mobile.listview.prototype.options.dividerTheme = 'e';\n	//$.mobile.listview.prototype.options.filter = true;\n	//$.mobile.listview.prototype.options.filterTheme = 'e';\n	//$.mobile.listview.prototype.options.filterPlaceholder = 'Search for ...';\n	//$.mobile.listview.prototype.options.filterCallback = customFilter;\n	//$(document).ready(function() {\n	//	$('#myform').change(function() {\n	//		$('#textarea').append()\n	//	});\n	//});\n</script>\n\n\n</head>\n<body>\n\n<div id='registerbutton'>{{button}}</div>\n\n<div data-role=\"popup\" id=\"storypopup\" data-overlay-theme=\"a\" data-theme=\"c\" class=\"ui-corner-all\">\n	<div data-role=\"header\" data-theme=\"a\" class=\"ui-corner-top\">\n		<h3>Mnemonics </h3>\n		<a href=\"#\" data-rel=\"back\" data-role=\"button\" data-theme=\"a\" data-icon=\"delete\" data-iconpos=\"notext\" data-shadow=\"false\" data-iconshadow=\"false\" class=\"ui-btn-right\">Close</a>\n	</div>\n	<div data-role=\"content\" data-theme=\"d\" class=\"ui-corner-bottom ui-content popupContent\">\n		<!--<h3 class=\"ui-title\">Tips</h3>-->\n		<!--<a href=\"#\" data-role=\"button\" data-inline=\"true\" data-rel=\"back\" data-transition=\"flow\" data-theme=\"b\">Close</a>-->  \n	</div>\n</div>\n\n<div data-role=\"popup\" id=\"popupDialog\" data-overlay-theme=\"a\" data-theme=\"c\"  class=\"ui-corner-all\">\n	<div data-role=\"header\" data-theme=\"a\" class=\"ui-corner-top\">\n		<h3>Tips</h311>\n	</div>\n	<div data-role=\"content\" data-theme=\"d\" class=\"ui-corner-bottom ui-content\">\n		<!--<h3 class=\"ui-title\">Tips</h3>-->\n		<p id='dialogmsg'>This action cannot be undone.</p>\n		<!--<a href=\"#\" data-role=\"button\" data-inline=\"true\" data-rel=\"back\" data-theme=\"c\">Cancel</a>-->\n        <div id=\"checkboxes1\" data-role=\"fieldcontain\">\n            <fieldset data-role=\"controlgroup\" data-type=\"vertical\" data-mini=\"true\">\n                <legend>\n                </legend>\n                <input id=\"checkbox1\" name=\"\" type=\"checkbox\">\n                <label for=\"checkbox1\">\n                    Don't show this again\n                </label>\n            </fieldset>\n        </div>		\n		<a href=\"#\" data-role=\"button\" data-inline=\"true\" data-rel=\"back\" data-transition=\"flow\" data-theme=\"b\">Okay</a>  \n	</div>\n</div>\n\n\n<div data-role=\"page\" id=\"createlistpage\" class=\"ui-dialog\">\n	<div data-role=\"header\">Create a new list</div>\n	<div data-role=\"content\">\n		<form action='#' method='post' id='createpageform'>\n			<label for='textitem'>Enter a name for the list</label>\n			<input type='text' id='textitem' name='textitem'\n			placeholder='Enter text item' value='' />\n			<textarea id='textarea' name='textarea'\n			placeholder='Enter description'></textarea>\n		</form>\n	</div>\n\n</div>\n\n<!-- Home -->\n<div data-role=\"page\" id=\"listpage\">\n    <div data-theme=\"a\" data-role=\"header\">\n        <h3>\n            Select a topic\n        </h3>\n    </div>\n    <div data-role=\"content\">\n        <h5>\n            Select a list\n        </h5>\n        \n\n        <!--<div data-role=\"fieldcontain\">\n            <input name=\"\" id=\"searchinput1\" placeholder=\"\" value=\"\" type=\"search\">\n        </div>\n        <ul data-role=\"listview\" data-divider-theme=\"b\" data-inset=\"true\">\n            <li data-role=\"list-divider\" role=\"heading\">\n                Divider\n            </li>\n            <li data-theme=\"c\">\n                <a href=\"#\" data-transition=\"slide\">\n                    Button\n                </a>\n            </li>\n        </ul>-->\n		<ul id='oslist' data-role='listview'>\n			<li data-role='list-divider'>Studied</li>\n			<li data-filtertext='Google'>Android</li>\n			<li data-filtertext='HP'>WebOS</li>\n			<li data-filtertext='Samsung Intel'>Tizen</li>\n			<li data-filtertext='Linux Foundation'>LiMo</li>\n			<li data-filtertext='Mozilla'>Boot2Gecko</li>\n			\n			<li data-role='list-divider'>New</li>\n			\n			<li data-filtertext='Apple'>iOS</li>\n			<li data-filtertext='Nokia'>Symbian</li>\n			<li data-filtertext='Nokia'>S40</li>\n			<li data-filtertext='RIM'>Blackberry OS</li>\n			<li data-filtertext='Microsoft'>Windows Phone</li>\n			<li data-filtertext='Samsung'>Bada</li>\n		</ul>        \n        <div data-role=\"fieldcontain\" id=\"des\" class=\"ui-disabled\">\n            <textarea name=\"\" id=\"des\" placeholder=\"Description\"></textarea>\n        </div>\n        <a id=\"newbutton\" data-role=\"button\" href=\"#\">\n            Create new list\n        </a>\n    </div>\n</div>\n\n\n<div data-role=\"page\" id=\"startpage\">\n	<div data-theme=\"a\" data-role=\"header\">\n		<h3>\n			Review Settings\n		</h3>\n	</div>\n	<div data-role=\"content\">\n		<div class=\"ui-grid-a\">\n			<div class=\"ui-block-a\">\n				<h2>\n					Due Today\n				</h2>\n			</div>\n			<div class=\"ui-block-b\">\n				<h2 id=\"ndue\">\n					0\n				</h2>\n			</div>\n			<div class=\"ui-block-a\">\n				<h2 id=\"nseen\">\n					Seen Items\n				</h2>\n			</div>\n			<div class=\"ui-block-b\">\n				<h2 id=\"wordid\">\n					0\n				</h2>\n			</div>\n			<div class=\"ui-block-a\">\n				<h2>\n					Total Items\n				</h2>\n			</div>\n			<div class=\"ui-block-b\">\n				<h2 id=\"wordlen\">\n					0\n				</h2>\n			</div>\n		</div>\n		<div data-role=\"fieldcontain\">\n			<fieldset data-role=\"controlgroup\" data-type=\"horizontal\" id=\"newperday\">\n				<legend>\n					Number of new cards\n				</legend>\n				<input id=\"radio1\" name=\"\" value=\"20\" type=\"radio\" checked=\"checked\" />\n				<label for=\"radio1\">\n					20\n				</label>\n				<input id=\"radio0\" name=\"\" value=\"40\" type=\"radio\" />\n				<label for=\"radio0\">\n					40\n				</label>\n				<input id=\"radio2\" name=\"\" value=\"0\" type=\"radio\" />\n				<label for=\"radio2\">\n					0\n				</label>\n			</fieldset>\n			<fieldset data-role=\"controlgroup\" data-type=\"horizontal\" id=\"maxreviews\">\n				<legend>\n					Maximum number of reviews\n				</legend>\n\n				<input id=\"radio8\" name=\"\" value=\"150\" type=\"radio\"/>\n				<label for=\"radio8\">\n					150\n				</label>\n				<input id=\"radio1\" name=\"\" value=\"70\" type=\"radio\" checked=\"checked\" />\n				<label for=\"radio1\">\n					70\n				</label>\n				<input id=\"radio0\" name=\"\" value=\"30\" type=\"radio\" />\n				<label for=\"radio0\">\n					30\n				</label>\n				<input id=\"radio5\" name=\"\" value=\"10\" type=\"radio\" />\n				<label for=\"radio5\">\n					10\n				</label>				\n				<input id=\"radio2\" name=\"\" value=\"0\" type=\"radio\" />\n				<label for=\"radio2\">\n					0\n				</label>\n			</fieldset>\n		</div>\n\n		<a id=\"reviewbut\" data-role=\"button\"> <!-- href=\"#gamepage\"> -->\n			Review\n		</a>\n	</div>\n	<!--<div data-id=\"foo1\" id=\"footer2\" data-theme=\"a\" data-role=\"footer\" data-position=\"fixed\"></div>\n	-->\n</div>\n\n<div data-role=\"page\" id=\"gamepage\">\n	<div data-role=\"header\">\n		<h1>Rapid Chinese Aquasition Tool</h1>\n		<h3 id='mode'> MODE </h3>\n	</div><!-- /header -->\n	<div id=\"main\" data-role=\"content\">	\n		<div class=\"ui-grid-b\" id=\"game\">\n		</div>\n	</div><!-- /content -->\n	<div data-id=\"foo1\" id=\"footer2\" data-theme=\"a\" data-role=\"footer\" data-position=\"fixed\"></div>\n</div><!-- /page -->\n\n<div data-role=\"page\" id=\"goalpage\">\n    <div data-theme=\"a\" data-role=\"header\">\n        <h3>\n            Congratulations!\n        </h3>\n    </div>\n    <div data-role=\"content\">\n        <h2>\n            You have completed all goals for today.\n        </h2>\n        <h2 id=\"ctime\">\n            Completion Time:\n        </h2>\n        <h2 id=\"cardsdue\">\n            Tomorrow at this time ### cards are due for review.\n        </h2>\n        <h2 id=\"newcards\">\n            Tomorrow ### new cards will be shown.\n        </h2>\n        <a data-role=\"button\" id='finishbut'>\n            Finish\n        </a>\n    </div>\n	<div data-id=\"foo1\" id=\"footer2\" data-theme=\"a\" data-role=\"footer\" data-position=\"fixed\"></div>\n</div>\n\n<div data-role=\"page\" id=\"graphpage\">\n		<div data-theme=\"a\" data-role=\"header\">\n			<h3>\n				Graphs\n			</h3>\n			<div data-role=\"navbar\" data-iconpos=\"top\">\n				<ul id=\"graphnav\">\n					<li><a id='nav0' data-transition=\"fade\" data-theme=\"\" data-icon=\"\">Button</a></li>\n					<li><a id='nav1' data-transition=\"fade\" data-theme=\"\" data-icon=\"\">Button</a></li>\n					<li><a id='nav2' data-transition=\"fade\" data-theme=\"\" data-icon=\"\">Button</a></li>\n					<li><a id='nav3' data-transition=\"fade\" data-theme=\"\" data-icon=\"\">Button</a></li>\n					<li><a id='nav4' data-transition=\"fade\" data-theme=\"\" data-icon=\"\">Button</a></li>\n				</ul>\n			</div>				\n		</div>\n		<div id=\"chart1\"></div>			\n		<div data-role=\"content\">			\n			<div data-role=\"fieldcontain\">\n				<fieldset data-role=\"controlgroup\" data-mini=\"true\">\n					<label for=\"textinput1\"> Days </label>\n					<input name=\"\" id=\"days\" placeholder=\"\" value=\"30\" type=\"number\" />\n				</fieldset>\n			</div>\n			<!--<a data-role=\"button\" href=\"#page1\">\n				Go back\n			</a>-->\n		</div>\n		<div data-id=\"foo1\" id=\"footer2\" data-theme=\"a\" data-role=\"footer\" data-position=\"fixed\"></div>\n	</div>\n</div>\n</body></html>",
+			"file": "/C/Users/aoeu/Downloads/Numberlanda/dummy.html",
+			"file_size": 10818,
+			"file_write_time": 130110394688071640,
+			"settings":
+			{
+				"buffer_size": 10685,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html> \n<html> \n<head> \n	<title>My Page</title> \n	<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> \n\n	<script src=\"./js/jquery-1.8.2.min.js\"></script>\n	<link rel=\"stylesheet\" href=\"./js/jquery.mobile-1.2.0.min.css\" />\n	<script src=\"./js/jquery.mobile-1.2.0.js\"></script> \n\n\n	<script language=\"javascript\" type=\"text/javascript\" src=\"./js/jquery.jqplot.min.js\"></script>\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"./js/jquery.jqplot.css\" />\n	<script type=\"text/javascript\" src=\"./js/plugins/jqplot.canvasTextRenderer.min.js\"></script>\n	<script type=\"text/javascript\" src=\"./js/plugins/jqplot.canvasAxisLabelRenderer.min.js\"></script>\n	<script type=\"text/javascript\">\n		//$.mobile.listview.prototype.options.theme = 'e';\n		$.mobile.listview.prototype.options.inset = true;\n		//$.mobile.listview.prototype.options.dividerTheme = 'e';\n		$.mobile.listview.prototype.options.filter = true;\n		//$.mobile.listview.prototype.options.filterTheme = 'e';\n		$.mobile.listview.prototype.options.filterPlaceholder = 'Search for ...';\n		//$.mobile.listview.prototype.options.filterCallback = customFilter;\n		$(document).ready(function() {\n			$('#myform').change(function() {\n				$('#textarea').append()\n			});\n		});\n	</script>\n\n\n\n<div data-role=\"page\" id=\"createlistpage\">\n	<header>Create Custom List</header>\n	<div data-role=\"content\"> \n		\n	</div>\n</div>\n\n<div data-role=\"page\">\n\n	<div data-role=\"header\">\n		<h1>My Title</h1>\n	</div><!-- /header -->\n\n	<div data-role=\"content\">\n		<form action='#' method='post' id='myform'>\n		<input type='search' id='searchitem' name='searchitem' autofocus\n		placeholder='Enter search text' value='' />\n			<input type='text' id='textitem' name='textitem'\n			placeholder='Enter text item' value='' />\n		<textarea id='textarea' name='textarea'\n		placeholder='Enter description'></textarea>\n			<a href='#' data-role='button' class='ui-disabled'>More\n			Details</a>\n		</form>\n\n		<ul id='oslist' data-role='listview'>\n			<li data-role='list-divider'>Open Source</li>\n			<li data-filtertext='Google'>Android</li>\n			<li data-filtertext='HP'>WebOS</li>\n			<li data-filtertext='Samsung Intel'>Tizen</li>\n			<li data-filtertext='Linux Foundation'>LiMo</li>\n			<li data-filtertext='Mozilla'>Boot2Gecko</li>\n			<li data-role='list-divider'>Closed</li>\n			<li data-filtertext='Apple'>iOS</li>\n			<li data-filtertext='Nokia'>Symbian</li>\n			<li data-filtertext='Nokia'>S40</li>\n			<li data-filtertext='RIM'>Blackberry OS</li>\n			<li data-filtertext='Microsoft'>Windows Phone</li>\n			<li data-filtertext='Samsung'>Bada</li>\n		</ul>\n	</div><!-- /content -->\n\n</div><!-- /page -->\n\n\n\n-->\n</head> \n\n\n<body> \n\n\n</body>\n</html>\n",
+			"file": "/C/Users/aoeu/Downloads/Numberlanda/a.htm",
+			"file_size": 2590,
+			"file_write_time": 130104520700896560,
+			"settings":
+			{
+				"buffer_size": 2660,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "loader.js",
+			"settings":
+			{
+				"buffer_size": 240,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Why.txt",
+			"settings":
+			{
+				"buffer_size": 4262,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/aoeu/Downloads/Numberlanda/main.py",
+			"settings":
+			{
+				"buffer_size": 9468,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/aoeu/Downloads/Numberlanda/Speed Numberlanda Vocab",
+			"settings":
+			{
+				"buffer_size": 172,
+				"line_ending": "Windows",
+				"name": "Speed Numberlanda Vocab"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 111.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/aoeu/Downloads/Numberlanda/js/sounds/tumblr_m7vkgtbd541r4py2zo1_500.jpg",
+		"/C/Users/aoeu/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/aoeu/Downloads/Numberlanda/js/Error",
+		"/C/Users/aoeu/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/aoeu/Downloads/Numberlanda/main.htm",
+		"/C/Users/aoeu/Downloads/Numberlanda/dummy.html",
+		"/C/Users/aoeu/Downloads/Numberlanda/main.py",
+		"/C/Users/aoeu/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/aoeu/AppData/Roaming/Sublime Text 2/Packages/User/Plain text.sublime-settings",
+		"/C/Users/aoeu/Downloads/Numberlanda/js/game.coffee"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"enterTextMode",
+			"enterText",
+			"@timerMode",
+			"@cols",
+			"in @cols",
+			"@cols",
+			"e.",
+			"#graph",
+			"#graphpage",
+			"#graphppage",
+			"parseJSON",
+			"@call",
+			"#.call",
+			"#get",
+			"popupStories",
+			"popuPstories",
+			"get_stories",
+			"popupStories()",
+			"popup",
+			"test1",
+			"remote",
+			"testremote",
+			"@stat",
+			"json.stri",
+			"JSOn.stri",
+			"popupSt",
+			"storyrating",
+			"addOrSet",
+			"parent()",
+			"parenT()",
+			"parenT().parent()",
+			"ui-bl",
+			"catch",
+			"#popup",
+			"popup",
+			"popupStories",
+			"tip",
+			"'lol'",
+			"popupStories",
+			"rowq",
+			"showq",
+			".click (->",
+			".click",
+			"changeslot",
+			"change",
+			"changeslot",
+			"skip",
+			"gameloop:",
+			"#skipbut",
+			"trigger 'cr",
+			"trigger",
+			"Skipping",
+			"Continue",
+			"Continue Ski",
+			"matchint",
+			"gameloop",
+			"keypress",
+			"key",
+			"errorwords",
+			"reviewcards",
+			"round2",
+			"@errorwords",
+			"round2",
+			"saveState",
+			"reload",
+			"hilight:",
+			"hilight",
+			"start",
+			"wtf",
+			"gameloo",
+			"gamelooop",
+			"new Stats",
+			"new Stat",
+			"clone:",
+			"Stats",
+			"stat =",
+			"stat",
+			"Tips",
+			"Object.create",
+			"Tips",
+			"keypr",
+			"unselectall",
+			"setupfooter",
+			"gameElt()",
+			"reload",
+			"_Tips",
+			"addre",
+			"push",
+			"push:",
+			"addreviewed:",
+			"game.",
+			"@game.",
+			"footer",
+			"markCorrect",
+			"matchFunc",
+			"rowq",
+			"Sound",
+			"Sound.success",
+			"rowq[tr]",
+			"@tip",
+			"tips",
+			"tip:",
+			"[d, v] of",
+			"for [A-z] *of",
+			"for[A-z]*of",
+			"for [[A-z]*]of",
+			"constru",
+			"nNew",
+			"nnew",
+			"addO",
+			"StudyTime",
+			"getdefault",
+			"'WRONG'",
+			"@cols",
+			"cols is",
+			"@cols is",
+			"@cols",
+			"@datacols",
+			"hashFromPairs",
+			"hashFromPairs:",
+			"words",
+			"@wordid +=",
+			"matchFunc",
+			"markDone:",
+			"click =>",
+			"click ->",
+			"@newperday =",
+			"@maxreview"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"game.",
+			"d, v of",
+			"@cols",
+			"@now()",
+			"if DEBUG is true\\n",
+			"daydue",
+			"errormatch",
+			"setrow",
+			"row",
+			"",
+			"'hanzi'",
+			"null"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "game.coffee",
+					"settings":
+					{
+						"buffer_size": 50461,
+						"regions":
+						{
+							"mark":
+							{
+								"flags": 144,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										22477,
+										22477
+									]
+								],
+								"scope": "mark"
+							}
+						},
+						"selection":
+						[
+							[
+								29461,
+								29461
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Coffeescript/Syntaxes/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13764.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/aoeu/Downloads/Numberlanda/dummy.html",
+					"settings":
+					{
+						"buffer_size": 10685,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2531,
+								2531
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 273.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/aoeu/Downloads/Numberlanda/a.htm",
+					"settings":
+					{
+						"buffer_size": 2660,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1243,
+								1243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 39.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "loader.js",
+					"settings":
+					{
+						"buffer_size": 240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								240
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Why.txt",
+					"settings":
+					{
+						"buffer_size": 4262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2316,
+								2316
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 195.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/aoeu/Downloads/Numberlanda/main.py",
+					"settings":
+					{
+						"buffer_size": 9468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1741,
+								1741
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 195.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/aoeu/Downloads/Numberlanda/Speed Numberlanda Vocab",
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								171,
+								171
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Speed Numberlanda Vocab",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

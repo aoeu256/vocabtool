@@ -1,0 +1,113 @@
+
+
+
+What is this for?
+
+This supplemental system that helps you gain familiarity with the vocabulary so that
+you can understand how statements are formed in Chinese, and let you learn new words 
+from context.  It does not show how words are used, and it will probably not give you 
+good command of the tones, what it will do is let you read Chinese very quickly.  You
+can use the structure of the Chinese language to help you learn vocabulary quickly.
+
+Pre-requisites
+--------------
+Some knowledge of Chiense pronounciation is good.  Important points are:
+	1.) XUE vs SHUE
+	
+Listening to Chinese passively will help you remember words.
+
+
+What does this do?  This plugin familiarizes you with Chinese words by allowing the user to compare how different sound roots combine to change meaning.  
+
+To get a more full understanding of the meaning of words it is recommended you go on to viewing Chinese shows/movies with English subs.  If you watch such shows without first familiarizing yourself with words then if characters use more than one word at the same time you won't be able to match which Chinese word goes with which English word.  Your short term memory will be overloaded with weird sounds.  Using this SRS system turns watching Chinese shows/movies from:
+
+Eng sub: Hello how are you doing?
+What it sounds like: aoue toanueh outaen uoethnu uohent
+What it sounds like after using the program: You how do vorp.
+
+
+
+Why would HANZI die on you, last changes you made?
+GMAIL it or send it to some website every time you save by date.
+
+
+
+MNEMONICS
+---------
+Mnemonics help you learn words by associating a kanji with an image.  You see your brain has infinite "parallel" processing power, and mnemonics exploit this by creating as many links as possible so that if one or two links dissappear you can still access the memory by the other links.
+
+-------------------
+IMPORTANT
+NEED A REFILL?
+
+- IRC SMART PPL
+
+? 
+- MAKE A FAT BURNING deck with do it yourself goals
+	* Desensitize GREEN TEA + APPLE CIDER VINEGAR
+	* Other desensitize
+	* Reduce by 50%, Reduce by 25%, Reduce by 10%
+	*
+* CUSTOM LISTS
+	- Change appearance of thingy 
+	- System for changing the word list
+- localStorage and ONLINE
+- Figuer out how to use PAYPAL?
+- INCORPORATE GRAPHS WITH INFO TEST
+- HELP ABOUT SCREEN
+- Make rating not ZERO (re-populate)
+- Is there a google API to figure who is in a users address book etc...?  Good start for marketing...
+- Chinese proverbs, dictionary api, word converters[immersion tool]
+- Chinese word list with definitions and sound files
+- Links to Popup-dictionaries and Pin Yin inserters. 
+- Some sentences
+- Allow users to create their own lists 
+
+NOT IMPORTANT
+- chains
+- avg user difficulty
+- backwards (keyword -> hanzi) cards?
+- FORUM?
+- LEECHES
+
+What can I do with 5000$?  50 * 100
+---
+* Tea   200$.  [1 vita-life lasts for 2 months?]
+* Food 1300$
+* New utilities 1000$
+	* NEW MONITOR = 400$
+	* walking thingy = 500$
+	* weights?
+	* 
+* AZMA	1000$
+efedrine 130$
+
+ADD-IT BUTTON 500%?
+
+---
+
+Marketing ideas
+---------------
+1.) Make different versions, one with sentences, for different languages, different sizes, etc...
+2.) Let people make their own lists, and let them sell the lists.  Make about 33% profit.
+3.) Make an add that gives ppl money per click
+4.) Go to that linguistic site and kanji.kohii.com, talk to the Chilean dude.  Offer afflition or something...  5-10$ discount for each person that you find to add.
+5.) 200k in bank 133k after TAXES : ( 7000-10000$ per year).  Cheap rents = 400$/月 = 5K/yearly.
+6.) 
+7.)
+
+100K -> 66K after TAX -> 4K/YEAR
+
+
+
+
+I can sell to the Chinese and Japanese and Spanish and English and other market.  If I sell 100 in each market at 40$ thats 4,000 * 4 = 16,000$.  If I sell 1000 on each market, I need some marketing help somewhat....   I need more help with design, do you know any godo designers...  Thats a huge problem isn't it?  The fact that I can't get designers to help me design...  10,000$ * 10 = 100k$.  I don't need that much money do I?  All I need is some $$$ to show that I can stand up for myself a bit, and to plug up my resume so that I SURVIVED the RECESSION.  The market will pick up in the year 2016 muwahahah...
+
+
+localStorage
+|
+|
+APPLICATION
+|
+|
+CHECK @lasttime on probably APP ENGINE

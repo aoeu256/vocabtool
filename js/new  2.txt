@@ -1,0 +1,83 @@
+ï»¿
+
+Chinese TODO
+‚PDj@‚r‚”‚‚”‚‰‚ƒ@‚s‚‚‚‚Œ‚…‚“
+‚QDj@‚l‚‚’‚…@unit ‚”‚…‚“‚”‚“
+‚RDj@More unit tests
+
+
+Long-term TODO
+—F’B‚ğ‘‚â‚¹‚é
+’†‘‚à‚¤•×‹­‚·‚é
+
+
+
+RECENT TODO
+‚PDj@‚k‚‚‚‹@‚†‚‚’@‚‚‚’‚…@‚Š‚‚‚‚“
+‚QDj@‚r‚…‚…@‚—‚ˆ‚‚”@‚”‚ˆ‚…‚™@‚—‚‚‚”@‚‚…@‚”‚@‚Œ‚…‚‚’‚
+‚RDj@‚k‚…‚‚’‚@‚‰‚”
+‚SDj@‚b‚‚‚“‚”‚’‚•‚ƒ‚”@‚‚‚’‚”‚†‚‚Œ‚‰‚
+‚TDj@‚t‚‚„‚‚”‚…@‚’‚…‚“‚•‚‚…@‚—‚‰‚”‚ˆ@‚b‚ˆ‚‰‚‚…‚“‚…^‚v‚‚’‚„@‚ƒ‚ˆ‚‚‚‡‚…‚’
+‚UDj@‚o‚•‚”@‚‰‚”@‚‚@‚f‚‰‚”‚ˆ‚•‚‚
+‚VDj@‚r‚…‚‚„@‚’‚…‚“‚•‚‚…@‚‚•‚”@‚†‚‚’@‚‚•‚”@‚‚‚„@‚—‚‰‚„‚…
+‚WDj@‚e‚‰‚‡‚•‚’‚…@‚‚•‚”@•’Ê‚Ì–â‘è
+@@@@–@‚f‚…‚‚…‚’‚‰‚ƒ‚“@‚–‚“@‚s‚…‚‚‚Œ‚‚”‚…‚“
+@@@@–@‚v‚ˆ‚™@‚c‚@‚x‚‚•@‚v‚‚‚”@‚s‚@‚v‚‚’‚‹@‚g‚…‚’‚…H
+	@@@@@–@‚k‚‚ƒ‚‚”‚‰‚‚
+	@@@@@–@‚q‚…‚‚Œ@‚o‚’‚‚‡‚’‚‚‚‚…‚’‚“
+	@@@@@–@‚p‚•‚‚Œ‚‰‚†‚‰‚ƒ‚‚”‚‰‚‚‚“
+		@@–@‚`‚„‚–‚‚‚ƒ‚…‚‚…‚‚”@|@‚b‚‚f‚”@‚a‚d@‚s‚‚@‚o‚‰‚ƒ‚‹‚™
+	@–@‚v‚ˆ‚‚”@‚‚’‚…@‚™‚‚•‚’@‚—‚…‚‚‹‚‚…‚“‚“‚…‚“C@‚‚‚„@‚—‚ˆ‚‚”@‚‚’‚…@‚™‚‚•@‚„‚‚‰‚‚‡H
+		–@‚h‚@‚d‚Œ‚‚‚ƒ‚…@‚h@‚ˆ‚‚„@–Ê“|ƒRƒ~ƒ…ƒjƒP[ƒVƒIƒ“A@‚`‚“‚‹@‚e‚‚’@‚l‚‚’‚…@‚c‚‰‚’‚…‚ƒ‚”‚‰‚‚‚“A@‚e‚‰‚‡‚•‚’‚…@‚‚•‚”@‚—‚ˆ‚‚”@‚”‚ˆ‚…‚™@‚—‚‚‚”@‚d‚˜‚‚ƒ‚”‚Œ‚™
+		–@‚o‚’‚‚ƒ‚’‚‚“‚”‚‰‚‚‚”‚‰‚‚@|@‚c‚‚‚ƒ‚…@‚‚•‚”@‚‚†@‚‚‚…‚‰‚‚‡@‚“‚”‚•‚ƒ‚‹
+‚XDj@‚c‚@‚x‚‚•@‚g‚‚–‚…@‚`‚‚™@‚p‚•‚…‚“‚”‚‰‚‚‚“@‚e‚‚’@‚l‚…H
+	?gWhen do you expect to make your final decision?h
+	?gIs there anything Ifve mentioned that makes you think Ifm not the best candidate for this job?h
+	?gWhat are the first projects I will be involved with if hired?h
+	?gHow would you describe the eculturef of the company?h
+	?gWhat are the most important qualities that a successful person in this position should possess?h
+	*What is the next step in the interview process?"
+	-What are the skills that you consider important for this job?
+	-What objectives need to be accomplished in the next six months?
+	-When can I expect to hear from you?
+	-What kind of software do you use?
+	-How many people work in this company?
+	-How long has this position been available?
+	-What is the company environment like?
+	-To whom does this position report to?
+	-What attracted you to this company? How long have you been here? 
+	-May I ask to why this position is open? 
+	-What is one weakness of this company? 
+	-What would you say is the philosophy of the company? 
+	-What would be my day to day responsibilities? 
+	-Is there room for advancement within the company if I proved to be a top worker?
+	-Can you tell me about the team I would be working with? 
+	-Is it possible to work on technologies other than the ones I am interviewing for in the future.
+	-What type of training will be available for this position? 
+	-Using what criteria will you select the right person for this position? 
+	-Can't you give me access to a bug report/feature request and github/sourceforge site and then see what I do or something...?
+
+	What languages/frameworks to you usually work with?
+	What development tools- IDEs, Bug Trackers, Version Control, etc do you use?
+	What's your development methodology like (Agile, Waterfall, Scrum, Crystal, etc)?
+	Do you have dedicated QA personel? Even if so, do developers do some amount of their own unit testing?
+	
+	How do the short and longer-term project goals get set and how is work distributed?
+
+	Good*
+	*What source control tool do you use?
+	*What development methodology do you use?
+	*Do you use Agile?
+	*What is your day like?
+	*Do you like it here?
+	*What part of your job do you like the least?
+	*What is the best and worst part of your job.
+	
+	However, questions that indicate and understanding of the business, its current issues, or issues the interviewer cares about work very well.
+
+	Can I install my favorite text editor or other programming software, or am I extremely limited only to what the company provides
+	
+	How agile are you?
+	What new things will I learn?
+
+	
